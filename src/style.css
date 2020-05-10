@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+#logoairbnb {
+    padding: 25px;
+    display: flex;
+    object-position: flex;
+    width: 140px;
+}
+
+#itemSuperior {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+
+#boxItemSuperior {
+    align-items: center;
+    display: flex;
+    object-position: flex;
+}
+
+#head {
+    border:lightgray 1px solid;
+    margin-bottom: 35px;
+}
+
+.footer { 
+    background: lightgrey; 
+}
+.footer__copyright { line-height: 90px; }
+.footer__developer span { 
+    font-weight: 600;
+}
+
+.places {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 15px;
+    z-index: 0;
+  }
+  
+  .place__details {
+    text-decoration: none;
+    color: #444;  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .place__image {
+    display: flex;
+    height: 200px;
+  }
+  
+  .place__photo {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .place__info{
+    height: 120px
+  }
+  
+  .place__type,
+  .place__name,
+  .place__price,
+  .place__total-price {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .place__name{
+    align-items: flex-start;
+    color: #6d6d6d;
+  }
+  
+  .place__type,
+  .place__total-price {
+    color: #7e7e7e;
+  }
+
+#placeespac {
+    padding: 20px;
+    object-position: flex;
+    align-items: center;
+
+}
